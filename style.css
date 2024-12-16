@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+body{
+    background-color: #f3e2e2;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background-color: rgba(240,240,240,0.6);
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    transition: 0.4s ease;
+}
+.header>a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    width: 400px;
+    padding: 10px;
+    transition: 0.4s ease;
+    text-align: center;
+}
+.header:hover{
+    background-color: white;
+}
+.a1:hover,.a2:hover,.a3:hover{
+    background-color: #ccc;
+}
+.a4:hover{
+    background-color: black;
+    color: white;
+}
+.logo1{
+    width: 100%;
+    position: relative;
+}
+.logo1>img{
+    width: 100%;
+    filter: grayscale(90%);
+    height: 600px;
+}
+.logo1>p{
+    color: white;
+}
+.text1{
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.text2{
+    position: absolute;
+    left: 50%;
+    bottom:45%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-weight:normal;
+}
+.text3{
+    position: absolute;
+    left: 50%;
+    bottom:38%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight:300;
+    font-weight:400;
+}
+.names{
+    display: flex;
+    padding-top: 60px;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 600;
+    color: grey;
+}
+.kissImg{
+    width:75%;
+    margin: 50px auto;
+    display: flex;
+    gap:40px;
+    flex-direction: column;
+    text-align: justify;
+    font-style: italic;
+    line-height: 1.7;
+}
+.kissImg>img{
+    width: 100%;
+    height: 700px;
+    border-radius: 5px;
+}
+/* wedding details head */
+.wedDetails{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.wedDetails>p{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 4px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.wedDetails>p:hover{
+    background-color: lightgrey;
+    color:black;
+}
+.logo3{
+    width:100%;
+    margin-top: 50px;
+    position: relative;
+}
+.logo3>img{
+    width: 100%;
+    height:600px;
+}
+.inviteText{
+    left: 50%;
+    bottom: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    position: absolute;
+    color: white;
+}
+.ofText{
+    left: 50%;
+    bottom: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    position: absolute;
+    color: white;
+}
+.wedHead{
+    display: flex;
+    padding-top: 60px;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 600;
+    color: grey;
+}
+.logo4{
+    width:75%;
+    margin: 50px auto;
+}
+.logo4>img{
+    width: 100%;
+    height: 700px;
+    border-radius: 5px;
+    filter: grayscale(70%);
+}
+.parent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #eee5e5;
+}
+.child1,.child2{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.7;
+    justify-content: space-evenly;
+}
+.t1,.t4{
+    font-size: 30px;
+}
+.rsvpBox{
+    padding-top: 100px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    /* line-height: 1.9; */
+    gap: 20px;
+    flex-direction: column;
+}
+.p1{
+    font-size: 38px;
+    letter-spacing: 3px;
+}
+.p2{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.p3{
+    color: white;
+    background-color: #f3827a;
+    width: 190px;
+    padding: 18px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 20px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.p3:hover{
+    background-color:lightgrey;
+    color: black;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    margin-top: 70px;
+    width: 100%;
+    height: 85px;
+    margin-bottom: 60px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
